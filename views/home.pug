@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/script.js')
+
+block style
+   style
+      include ../static/style.css
+
+block content 
+    
+    section#introSelection 
+        div Welcome to Ayush's Dance Academy 
+        div.small Eat Sleep Dance Repeat  
+    
+    
+    section#MissionSection
+        h3 Our Mission
+        div.card
+              h3 Dance Perfection 
+              div.card-box
+                  div.card-img
+                      img(src='/static/dance_logo-1.png')
+                  div.card-content 
+                    p This is the best dance academy of universe 
+        div.card
+              h3 Dance the way you like
+              div.card-box
+                  div.card-img
+                      img(src='/static/dance-logo-2.png')
+                  div.card-content 
+                    p This is the best dance academy of universe 
+        div.card
+              h3 Expert Teaching
+              div.card-box
+                  div.card-img
+                      img(src='/static/dance-logo-3.png')
+                  div.card-content 
+                    p This is the best dance academy of universe 
+    
+    
+    section#sponsorSection
+        h3 Our Sponsors 
+        div#sponsors
+            img(src='/static/sponsor-3.png',alt='Sponsor Image',Class='spImage')
+            img(src='/static/sponsor-1.png',alt='Sponsor Image',Class='spImage')
+            img(src='/static/sponsor-2.png',alt='Sponsor Image',Class='spImage')
+            img(src='/static/sponsor-4.png',alt='Sponsor Image',Class='spImage')      
+
+

@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Ayush Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top 
+        ul 
+            div#logo
+               img(src="/static/main-dance-logo.png")
+               | AYUSH DANCE ACADEMY
+            li #[a(href="/") Home] 
+            li #[a(href="/") About ]
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/contact") Contact Us]
+    
+    block content
+    //- block foot as footer sabme same to hum yahi dal dete h index.pug se lekar
+    footer#footer 
+        |  Copyright © 2019 AyushDanceAcademy | All right  reserved   
